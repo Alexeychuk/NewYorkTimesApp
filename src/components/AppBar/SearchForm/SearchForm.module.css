@@ -1,0 +1,40 @@
+/* eturn (
+      <form onSubmit={this.handleSubmit}>
+        <input type="text" value={query} onChange={this.handleChange} />
+        <button type="submit">Search!</button>
+      </form> */
+.container {
+  position: relative;
+  font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.search {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search__input {
+  padding: 5px 25px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  border-radius: 7px;
+  text-align: center;
+}
+
+.search__input:focus {
+  outline: 2px solid #0b6460;
+}
+
+.search__submit {
+  padding: 12px 0;
+  width: 200px;
+  font-size: 20px;
+  background-color: #0b6460;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}

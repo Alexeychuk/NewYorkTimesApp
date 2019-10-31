@@ -1,0 +1,51 @@
+/* <div className={styles.Pagination}>
+        <button
+          type="button"
+          disabled={currentPage === 1 ? true : false}
+          onClick={this.handlePagination}
+          name="reset"
+        >
+          First
+        </button>
+        <button
+          type="button"
+          disabled={currentPage === 1 ? true : false}
+          onClick={this.handlePagination}
+          name="decrease"
+        >
+          Prev
+        </button>
+        <span> {currentPage} </span>
+        <button type="button" onClick={this.handlePagination} name="increase">
+          Next
+        </button>
+      </div> */
+
+.Pagination {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.Pagination button {
+  padding: 12px 0;
+  width: 200px;
+  font-size: 24px;
+  background-color: #0b6460;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+.Pagination button:disabled {
+  background-color: #7e8d8c;
+  color: #ffffff;
+}
+
+.Pagination p {
+  font-size: 46px;
+  line-height: 60px;
+  margin: 0 20px;
+}

@@ -1,0 +1,12 @@
+.headline {
+  text-align: center;
+  padding: 20px;
+  font-size: 45px;
+  color: #ffffff;
+  background-color: #0b6460;
+  box-shadow: 0 3px 10px 0 #000000;
+  margin-bottom: 30px;
+  font-family: 'Cinzel', serif;
+  font-weight: 700;
+  cursor: pointer;
+}

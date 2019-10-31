@@ -1,0 +1,23 @@
+/* <ul>
+{isLoading ? (
+  <p>Loading...</p>
+) : (
+  articles.map(article => <NewsItem {...article} key={article.id} />)
+)}
+
+{isPagination && <PaginationContainer />}
+</ul> */
+
+.newsList {
+  display: flex;
+  padding: 5%;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+@media (min-width: 768px) {
+  .newsList {
+    justify-content: space-between;
+  }
+}
