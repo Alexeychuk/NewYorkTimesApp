@@ -27,7 +27,7 @@ export const getQueryArcticles = (query, page = 1) => {
       `/svc/search/v2/articlesearch.json?q=${query}&api-key=${API_KEY}&page=${page}`,
     )
     .then(response => {
-      console.log(response);
+      // console.log(response);
       return {
         articles: response.data.response.docs.map(doc => ({
           section: doc.section_name,

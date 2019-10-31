@@ -35,7 +35,7 @@ export const fetchQuery = (query, page = 1) => dispatch => {
 export const fetchCategory = category => dispatch => {
   dispatch(fetchCategoryRequest());
 
-  getCategoryArcticles(category)
+  return getCategoryArcticles(category)
     .then(data => dispatch(fetchCategorySuccess(data)))
     .catch(err => dispatch(fetchCategoryError(err)));
 };

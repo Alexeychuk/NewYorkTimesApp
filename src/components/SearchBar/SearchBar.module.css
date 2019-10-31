@@ -11,15 +11,16 @@
 
 .searchBar {
   width: 60%;
-  margin: 0 auto;
+  margin: 0 auto 30px;
 }
 
 @media (min-width: 768px) {
   .searchBar {
     position: absolute;
-    top: 10px;
+    top: 0;
     right: 20px;
     width: 200px;
+    margin: 0 auto;
   }
 }
 

@@ -10,7 +10,7 @@
 
 .newsList {
   display: flex;
-  padding: 5%;
+  padding: 2% 5%;
   justify-content: center;
   flex-wrap: wrap;
   align-content: space-between;

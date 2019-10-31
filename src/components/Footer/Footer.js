@@ -6,7 +6,11 @@ const Footer = () => {
     <footer className={styles.footer}>
       <p>
         Created by
-        <a href="https://github.com/Alexeychuk" target="_blank">
+        <a
+          href="https://github.com/Alexeychuk"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Alekseychuk
         </a>
       </p>

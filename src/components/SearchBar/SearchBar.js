@@ -17,15 +17,32 @@ const categoryOptions = [
 export default class SearchBar extends Component {
   state = {
     categoryFilter: categoryOptions.find(category => {
-      console.log(this.props.category);
+      // console.log(this.props.category);
       return category.value === this.props.category;
     }),
   };
 
+  shouldComponentUpdate(nextProps, nextState) {
+    if (nextState.categoryFilter.value !== nextProps.category) {
+      this.setState({
+        categoryFilter: categoryOptions.find(
+          category => category.value === nextProps.category,
+        ),
+      });
+    }
+    return true;
+  }
+
   handleChange = (selectedOption, e) => {
-    const { fetchCategory } = this.props;
-    fetchCategory(selectedOption.value);
-    this.setState({ [e.name]: selectedOption });
+    const { fetchCategory, resetQuery } = this.props;
+    resetQuery();
+    fetchCategory(selectedOption.value).then(() =>
+      this.setState({
+        [e.name]: categoryOptions.find(
+          category => category.value === this.props.category,
+        ),
+      }),
+    );
   };
 
   render() {

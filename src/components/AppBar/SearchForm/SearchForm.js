@@ -17,10 +17,12 @@ export default class SearchForm extends Component {
     const { query } = this.state;
     fetchQuery(query);
     setQuery(query);
+    this.setState({ query: '' });
   };
 
   render() {
     const { query } = this.state;
+    const { currentQuery } = this.props;
     return (
       <div className={styles.container}>
         <form onSubmit={this.handleSubmit} className={styles.search}>
@@ -36,6 +38,11 @@ export default class SearchForm extends Component {
           </button>
         </form>
         <SearchBarContainer />
+        {currentQuery && (
+          <p className={styles.results}>
+            Results for &quot;{currentQuery}&quot;
+          </p>
+        )}
       </div>
     );
   }
