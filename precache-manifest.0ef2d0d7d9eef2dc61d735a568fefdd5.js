@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/NewYorkTimesApp/static/js/2.a4f07a12.chunk.js"
   },
   {
-    "revision": "96fc2726d78cd34556edec4302d5ee84",
+    "revision": "c713d62d0131602fdabd371fb93ab06b",
     "url": "/NewYorkTimesApp/index.html"
   }
 ];
