@@ -14,6 +14,7 @@ const override = css`
 `;
 
 const NewsList = ({ articles = [], isLoading, isPagination }) => {
+  console.log(articles);
   return (
     <>
       {isLoading ? (
@@ -35,7 +36,7 @@ const NewsList = ({ articles = [], isLoading, isPagination }) => {
               ))
             )}
           </ul>
-          {isPagination && <PaginationContainer />}
+          {isPagination && articles.length !== 0 && <PaginationContainer />}
         </>
       )}
     </>
