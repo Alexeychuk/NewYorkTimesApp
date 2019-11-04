@@ -1,13 +1,13 @@
 {
-  "main.css": "/NewYorkTimesApp/static/css/main.a127f741.chunk.css",
-  "main.js": "/NewYorkTimesApp/static/js/main.739b58ef.chunk.js",
-  "main.js.map": "/NewYorkTimesApp/static/js/main.739b58ef.chunk.js.map",
+  "main.css": "/NewYorkTimesApp/static/css/main.4ad653ea.chunk.css",
+  "main.js": "/NewYorkTimesApp/static/js/main.14c8dfb9.chunk.js",
+  "main.js.map": "/NewYorkTimesApp/static/js/main.14c8dfb9.chunk.js.map",
   "runtime~main.js": "/NewYorkTimesApp/static/js/runtime~main.22c80c1b.js",
   "runtime~main.js.map": "/NewYorkTimesApp/static/js/runtime~main.22c80c1b.js.map",
   "static/js/2.a4f07a12.chunk.js": "/NewYorkTimesApp/static/js/2.a4f07a12.chunk.js",
   "static/js/2.a4f07a12.chunk.js.map": "/NewYorkTimesApp/static/js/2.a4f07a12.chunk.js.map",
   "index.html": "/NewYorkTimesApp/index.html",
-  "precache-manifest.0ef2d0d7d9eef2dc61d735a568fefdd5.js": "/NewYorkTimesApp/precache-manifest.0ef2d0d7d9eef2dc61d735a568fefdd5.js",
+  "precache-manifest.9db10f3e2127682ad298271ab312f426.js": "/NewYorkTimesApp/precache-manifest.9db10f3e2127682ad298271ab312f426.js",
   "service-worker.js": "/NewYorkTimesApp/service-worker.js",
-  "static/css/main.a127f741.chunk.css.map": "/NewYorkTimesApp/static/css/main.a127f741.chunk.css.map"
+  "static/css/main.4ad653ea.chunk.css.map": "/NewYorkTimesApp/static/css/main.4ad653ea.chunk.css.map"
 }

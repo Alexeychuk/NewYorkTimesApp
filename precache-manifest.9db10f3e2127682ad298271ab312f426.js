@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "20cd136bcf666071edb2",
-    "url": "/NewYorkTimesApp/static/css/main.a127f741.chunk.css"
+    "revision": "e778f7babee210793159",
+    "url": "/NewYorkTimesApp/static/css/main.4ad653ea.chunk.css"
   },
   {
-    "revision": "20cd136bcf666071edb2",
-    "url": "/NewYorkTimesApp/static/js/main.739b58ef.chunk.js"
+    "revision": "e778f7babee210793159",
+    "url": "/NewYorkTimesApp/static/js/main.14c8dfb9.chunk.js"
   },
   {
     "revision": "b4751068febb8b0abb4a",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/NewYorkTimesApp/static/js/2.a4f07a12.chunk.js"
   },
   {
-    "revision": "c713d62d0131602fdabd371fb93ab06b",
+    "revision": "be7847da3dcdb269115123f13c72df29",
     "url": "/NewYorkTimesApp/index.html"
   }
 ];
